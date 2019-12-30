@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>99 Bottles of Beer</title>
+</head>
+<body>
+    <script>
+        var word = "bottles";
+        var count = 99;
+        while (count >0){
+            console.log (count + " " + word + " of beer on the wall")
+            console.log (count + " " + word + " of beer");
+            console.log ("Take 1 down, and pass it around,");
+            count = count - 1;
+            if (count >0){
+                console.log (count + " " + word + " of beer on the wall.");
+            } else {
+                    console.log ("No more bottles of beer on the wall!");
+                }
+        }
+        </script>
+    
+</body>
+</html>
