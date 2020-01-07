@@ -1,0 +1,164 @@
+
+/* Add a link to GOOGLE FONTS LINK at the top! THis should be the first line of your stylesheet.*/
+@import url(https://fonts.googleapis.com/css?family=Lato|Raleway:400,600);
+
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+/* Note: Makes sure that padding and the border are included in the width for each element. */
+/* Don't add anything else under the * selector! */
+* {
+	box-sizing: border-box;
+}
+
+
+nav{
+	font-family: 'Raleway', sans-serif;;
+	font-size: 16px;
+	color:#7B98AA;
+	text-align: center;
+	text-transform: uppercase;
+
+	  }
+	  nav a {
+		padding: 10px 30px;
+	  }
+
+	  a {
+		text-decoration: none;
+		}
+	a:active {
+			color: #7B98AA;
+	}
+	a:visited {
+			color: #7B98AA;
+	}
+header {
+	background-image: url('../images/home_header_bg.jpg');
+	height: 800px;
+	width: 100%;
+}
+
+header h1{
+	font-family: "Raleway";
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	display: block;
+	padding: 400px 0px 20px 0px
+}
+h2{
+	color: white;
+	text-transform: uppercase;
+	font-family: "Raleway";
+	font-size: 23px;
+	text-align: center;
+}
+
+
+body {
+	color: #44545E;
+}
+
+/*Note: fix so that images will scale with their containers. We'll chat about this more when we cover responsive design*/
+img {
+	max-width: 80%;
+}
+
+#container {
+	display: flex; /* or inline-flex */
+	text-align: center;
+  }
+
+h3{
+	text-transform: uppercase;
+	font-family: 'Raleway';
+	font-size: 23px;
+	text-align: center;
+	color: #44545E;
+}
+
+h4{
+	text-transform: uppercase;
+	font-family: 'Raleway';
+	font-size: 18px;
+	text-align: center;
+	color: #44545E;
+}
+
+p {
+	text-align: center;
+	font-family: 'Lato';
+	font-size: 15px;
+	padding: 5%;
+}
+
+figcaption{
+	text-transform: uppercase;
+	font-family: 'Raleway';
+	font-size: 18px;
+	text-align: center;
+	color: #44545E;
+}
+
+button {
+	text-align: center;
+	display: inline-block;
+	font-family: 'Raleway';
+	font-size: 13px;
+	text-transform: uppercase;
+	background: none;
+	border: 2px solid #44545E;
+	color:  #44545E;
+}
+
+#magazineinfo {
+	background-color: rgb(200, 240, 241);
+	align-content: center;
+	padding: 30px;
+}
+
+footer {
+	text-align: center;
+	background-color: rgb(200, 240, 241);
+	font-family: Lato;
+	font-size: 15px;
+}
+
+i {
+	padding: 10px;
+}
+
+input {
+	text-transform: uppercase;
+}
+/* ----------------------------------------
+Typography
+------------------------------------------- */
+
+
+
+/* ----------------------------------------
+Header
+------------------------------------------- */
+
+
+/* ----------------------------------------
+Articles
+------------------------------------------- */
+
+
+/* ----------------------------------------
+About
+------------------------------------------- */
+
+
+/* ----------------------------------------
+Gallery
+------------------------------------------- */
+
+
+
+/* ----------------------------------------
+Footer
+------------------------------------------- */
