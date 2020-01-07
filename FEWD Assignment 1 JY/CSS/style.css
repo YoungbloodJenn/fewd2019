@@ -1,0 +1,31 @@
+body{
+    background-color:aliceblue;
+    font-size: 20;
+    color: darkblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+nav{
+    text-align: left;
+    font-size: 15px;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+h5{
+    text-align: center;
+    color: black;
+}
+h3
+    {text-align: center;
+}
+p 
+    {text-align: center;
+}
+div {
+    padding-top: 10px;
+    padding-right: 200px;
+    padding-bottom: 80px;
+    padding-left: 200px;
+  }
