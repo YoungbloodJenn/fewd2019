@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel = 'stylesheet' href="css/style.css">
+    <title>GA Course Application</title>
+</head>
+<body>
+    <form action>
+        <h2><b>YOUR CONTACT INFO</b></h2>
+        <label for = "name">Full Name</label>
+        <input type = "text" placeholder="Enter your Name"> 
+        
+          <label for = "email">Email</label>
+        <input type = "email" placeholder="Enter your email"> 
+       
+           <label for = "phone">Phone Number</label>
+        <input type = "phone" placeholder="Enter your phone number"> 
+      <hr>
+
+<h2><b>SKILLS AND INTERESTS</b></h2>
+
+      <label for = "dropdown">What course are you interested in?</label>
+      <br>
+      <select name = "courses">
+          <option value="placeholder">Select</option>
+          <option value="front-end">Front End Web Dev</option>
+          <option value="design">UX Design</option>
+          <option value="data">Data Analytics</option>
+      </select>
+      <br>
+      <lable for = "location">Where do you want to take this course?</lable>
+      <div>
+
+      <p>San Francisco</p><input type = "radio"><p>Chicago</p><input type = "radio">
+      </div>
+        <textarea placeholder = "What is your past experience?"></textarea>
+        <hr>
+        <p>I want to receive updates.</p>
+        <input type = "checkbox">
+        <button type = "submit">Submit Application</button>
+      </form>
+
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+  <script src="js/main.js"></script>
+</body>
+</html>

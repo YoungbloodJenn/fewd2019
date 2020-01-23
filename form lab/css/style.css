@@ -1,0 +1,44 @@
+body {
+background-color: rgb(136, 224, 202);
+margin: 20px;
+}
+
+form {
+    background-color: white;
+    width: 50%;
+    padding: 30px;
+}
+
+input {
+  border: 1px solid grey;
+  display: block;
+  width: 95%;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+hr{
+    color: lightgray;
+}
+
+select{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+textarea{
+    height: 100px;
+    width: 100%;
+}
+
+button {
+  color: white;
+  background-color: goldenrod;
+  border-radius: 4px;
+  height: 30px;
+}
+
+div {
+display: flex;
+}
