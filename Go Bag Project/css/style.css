@@ -1,16 +1,14 @@
-
-
 body {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'News Cycle', Arial, sans-serif;
 	color: #44545E;
-	padding-left: 50px;
-	padding-right: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 p {
-	font-family: 'Lato', sans-serif;
-	text-transform: none;
-	line-height: 1.4;
+	font-family: 'News Cycle', Arial, sans-serif;
+	font-size: 16px;
+	line-height: 25px;
 }
 
 nav {
@@ -19,44 +17,75 @@ nav {
 	display: inline-block;
 	padding: 20px;
 	width: 90%;
-	margin: 30px;
+	margin: 10px;
 	text-align: center;
-}
-a:hover {
-	color: black;
 }
 
 a {
 	text-decoration: none;
-	color: #44545E;
-	font-weight: 600;
-	padding: 20px;
-}
-
-header {
-    justify-content: center;
 }
 
 h1 {
-    font-size: 25px;
     text-align: center;
-    text-transform: uppercase;
+	text-transform: uppercase;
 }
 
-img {
-	float: left;
-	margin-right: 100px;
-	margin-left: 50px;
-	width: 50%;
+#backpack {
+	width: 35%;
+	padding: 20px 150px 10px 40px;
+
+}
+
+h2 {
+	text-transform: uppercase;
+}
+h3{
+	text-align: center;
 }
 
 ul {
 	list-style-type: none;
 	text-align: left;
+	background-color: lightyellow;
+	width: 30%;
+	padding: 20px;
+	margin-left: 80px;
+	font-size: 20px;
 }
+
+#progress { 
+	width: 50%; 
+	background-color: #ddd; 
+  } 
+	
+  #progressBar { 
+	width: 1%; 
+	height: 35px; 
+	background-color: #4CAF50; 
+	text-align: center; 
+	line-height: 32px; 
+	color: black; 
+  }
 
 footer {
 	background-color: #CDF3F6;
 	text-align: center;
 	width: 100%;
+}
+
+ol{
+	font-size: 16px;
+	line-height: 30px;
+	
+}
+
+#emergency-exit {
+	display: block;
+	float: right;
+	width: 40%;
+	padding: 20px;
+}
+
+#kids {
+	text-align: center;
 }

@@ -2,26 +2,29 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Go Bag Builder</title>
-
-	<link href="https://fonts.googleapis.com/css?family=Lato|Raleway&display=swap" rel="stylesheet">
+	<title>Go Bag Builder: Home</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
 </head>
 
 <body>
 	<nav>
-            <a href="index.html">Home</a>
-            <a href="resources.html">Resources</a>
-            <a href="about.html">About</a>
+		<a href="index.html">Home</a> | 
+		<a href="resources.html">Resources</a> |
+		<a href="about.html">About</a> | 
+		<a href="kids.html">For Families</a>
 	</nav>
 	
-	<header>
-			<h1>Go Bag Builder</h1>
-	</header>
-	<img src="images/black-backpack-on-top-of-wooden-table-1546003.jpg" alt="Backpack" width="350px" height="250px">
+	<h1>Go Bag Builder</h1>
 
-<div="container">
+	<hr>
+
+	<img id="backpack" src="images/black-backpack-on-top-of-wooden-table-1546003.jpg" alt="Backpack">
+	
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/Ibxaw4FimBI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<div="bagitem">
+	<h3>Click the item name for more information and details. As you add each item to your bag check the box and watch your readiness increase!</h3>
 	<ul>
 		<li><input type="checkbox">Food and Water</li>
 		<li><input type="checkbox">Flashlight/Headlamp</li>
@@ -38,7 +41,12 @@
 		<li><input type="checkbox">Copies of Important Documents</li>
 		<li><input type="checkbox">Space Blanket & Large Garbage Bags</li>
 	</ul>
+
+	<div id="progress"> 
+		<div class="progressBar"></div> 
+	</div> 
 </div>
+
 	<footer>
 
 		<i class="fab fa-facebook-square"></i>
@@ -50,7 +58,9 @@
 	
 	</footer>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src ="js/main.js"></script>
+
 
 </body>
 

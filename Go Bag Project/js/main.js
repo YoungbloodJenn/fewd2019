@@ -1,15 +1,34 @@
-// /*page load alert*/
-// alert ("Welcome to Go Bag Builder - a place to prep for emergencies, disasters, and more!");
-// let question = "What is your name?";
-// var response = prompt(question);
-// alert("Hi, " + response + ". Get started with your Go Bag!");
+//User hovers over item for description/detail & affiliate link
 
+//User clicks to add item to bag
+$('ul').on('click', 'li', function () {
+    $(this).css('text-decoration', 'line-through')
+})
 
-/*add item message. move this to the resources page*/
+//Indicator increments to show % of completion of bag
+$('ul').on('click', 'li', function () {
+    $(this).addId('progress');
+})
 
-// function addItem(){
-//     var response = prompt("What do you want to add next?");
-//     alert("OK! Let's add a " + response + "!");
-// }
-// addItem();
+// function update() { 
+//     var element = document.getElementById("myprogressBar");    
+//     var width = 1; 
+//     var identity = setInterval(scene, 10); 
+//     function scene() { 
+//       if (width >= 100) { 
+//         clearInterval(identity); 
+//       } else { 
+//         width++;  
+//         element.style.width = width + '%';  
+//       } 
+//     } 
+//   }
 
+//Once bag is 100% complete user gets message
+
+    //"Congratulations, you have built your Go Bag! 
+    //What's next? How about a CPR/First Aid class? Why not take the 
+    //Community Emergency Response Team (CERT) course? Talk with family, neighbors, 
+    //and friends to make sure they are ready. American meteorologist Max Mayfield 
+    //, "Preparation through education is less costly than learning through
+    // tragedy."
