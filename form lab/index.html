@@ -9,7 +9,7 @@
 </head>
 <body>
     <form action>
-        <h2><b>YOUR CONTACT INFO</b></h2>
+        <h1>YOUR CONTACT INFO</h1>
         <label for = "name">Full Name</label>
         <input type = "text" placeholder="Enter your Name"> 
         
@@ -20,7 +20,7 @@
         <input type = "phone" placeholder="Enter your phone number"> 
       <hr>
 
-<h2><b>SKILLS AND INTERESTS</b></h2>
+<h1>SKILLS AND INTERESTS</h1>
 
       <label for = "dropdown">What course are you interested in?</label>
       <br>
@@ -34,14 +34,19 @@
       <lable for = "location">Where do you want to take this course?</lable>
       <div>
 
-      <p>San Francisco</p><input type = "radio"><p>Chicago</p><input type = "radio">
+      <p>San Francisco</p><input type = "radio" name = "city">
+      <p>Chicago</p><input type = "radio" name = "city">
       </div>
         <textarea placeholder = "What is your past experience?"></textarea>
         <hr>
-        <p>I want to receive updates.</p>
+      <div>
+        <p>I want to email receive updates.</p>
         <input type = "checkbox">
-        <button type = "submit">Submit Application</button>
-      </form>
+      </div>
+
+      <button type = "submit">Submit Application</button>
+      
+    </form>
 
       <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
