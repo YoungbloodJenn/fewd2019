@@ -1,25 +1,48 @@
 body {
-	font-family: 'News Cycle', Arial, sans-serif;
-	color: #44545E;
+	font-family: 'Roboto', sans-serif;
 	padding-left: 20px;
 	padding-right: 20px;
+	color: darkslategrey;
 }
 
 p {
-	font-family: 'News Cycle', Arial, sans-serif;
+	/* font-family: 'Roboto', sans-serif; */
 	font-size: 16px;
 	line-height: 25px;
 }
-
-nav {
-	background-color: #CDF3F6;
+  
+.topnav {
+	font-family: 'Fredericka the Great', cursive;
+	overflow: hidden;
+	background-color: #95BE6F;
+	position: relative;
+  }
+  
+  .topnav #myLinks {
+	display: none;
+	color: black;
+  }
+  
+  .topnav a {
+	color: white;
+	padding: 20px 30px;
+	font-size: 20px;
+	display: block;
+  }
+  
+  .topnav a.icon {
+	background: #12255A;
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+  }
+    
+  .active {
+	background-color: #0D4F9E;
+	color: white;
 	text-transform: uppercase;
-	display: inline-block;
-	padding: 20px;
-	width: 90%;
-	margin: 10px;
-	text-align: center;
-}
+  }
 
 a {
 	text-decoration: none;
@@ -31,59 +54,124 @@ h1 {
 }
 
 #backpack {
-	width: 35%;
-	padding: 20px 150px 10px 40px;
+	width: 40%;
+	padding: 15px 30px 10px 40px;
+}
 
+.imgHolder {
+	position: relative;
+	float: right;
+	border: 5px black double;
+	margin: 30px;
+}
+
+.imgHolder span {
+    position: absolute;
+    right: 30px;
+	top: -50px;
+	text-transform: uppercase;
+	/* margin: 10px; */
 }
 
 h2 {
 	text-transform: uppercase;
-}
-h3{
 	text-align: center;
+	margin: 50px;
+}
+
+h3{
+	margin-left: 50px;
 }
 
 ul {
 	list-style-type: none;
-	text-align: left;
-	background-color: lightyellow;
+	background-color: #95BE6F;
 	width: 30%;
 	padding: 20px;
 	margin-left: 80px;
-	font-size: 20px;
+	font-size: 18px;
 }
 
-#progress { 
-	width: 50%; 
-	background-color: #ddd; 
-  } 
-	
-  #progressBar { 
-	width: 1%; 
-	height: 35px; 
-	background-color: #4CAF50; 
-	text-align: center; 
-	line-height: 32px; 
-	color: black; 
+button {
+	background-color: #C41F27;
+	color: whitesmoke;
+	float: right;
+	margin-right: 200px;
+	height: 100px;
+	width: 400px;
+	font-size: 30px;
+}
+
+.modal-background {
+	padding: 40px;
+	background-color: rgba(0, 0, 0, .3);
+  
+	/*don't show modal on load*/
+	display: none; 
+  
+	/* position modal fixed middle of page  */
+	position: fixed; 
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  
+   /* using flexbox to align & justify center when displayed */
+   align-items: center;
+	justify-content: center;
   }
+  
+  .modal-content {
+	padding: 40px 20px;
+	color: #444;
+	background-color: white;
+	width: 60%;
+  }
+  
+
+li {
+	margin: 10px;
+}
 
 footer {
-	background-color: #CDF3F6;
+	background-color:#0D4F9E;
+	color: white;
 	text-align: center;
 	width: 100%;
+	letter-spacing: .2em;
 }
 
-ol{
+#shopping{
+	font-size: 20px;
+	color: darkslateblue;
+	background-color: lightgoldenrodyellow;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 40%;
+}
+
+#affiliatebox{
+	width: 200px;
+	height: 30px;
+	font-size: 20px;
+	margin: 2%;
+}
+
+#kit{
+	float: right;
+}
+
+ol {
 	font-size: 16px;
-	line-height: 30px;
-	
+	line-height: 20px;
 }
 
 #emergency-exit {
 	display: block;
 	float: right;
 	width: 40%;
-	padding: 20px;
+	padding: 100px 50px 50px 50px;
 }
 
 #kids {

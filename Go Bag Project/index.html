@@ -5,26 +5,39 @@
 	<title>Go Bag Builder: Home</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
-	<nav>
-		<a href="index.html">Home</a> | 
-		<a href="resources.html">Resources</a> |
-		<a href="about.html">About</a> | 
-		<a href="kids.html">For Families</a>
-	</nav>
+
+<!-- nav bar -->
+<div class="topnav">
+	<a href="#home" class="active">Go Bag Builder</a>
+		<div id="myLinks">
+			<a href="index.html">Home</a>
+			<a href="resources.html">Resources</a>
+			<a href="kids.html">For Families</a>
+			<a href="about.html">About</a>
+		</div>
+	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+	<i class="fa fa-bars"></i>
+	</a>
+</div>
+
+<h2>Start Building Your Go Bag!</h2>
+
+<img id="backpack" src="images/backpack.jpg" alt="Backpack">
 	
-	<h1>Go Bag Builder</h1>
+	<div class="imgHolder">
+		<span>Why Prepare? Check out this clip below:</span>
+		<iframe width="450" height="250" src="https://www.youtube.com/embed/Ibxaw4FimBI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
 
-	<hr>
-
-	<img id="backpack" src="images/black-backpack-on-top-of-wooden-table-1546003.jpg" alt="Backpack">
+<div id="bagItem">
+	<h3>Click each item as you add it to your Go Bag.</h3>
 	
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/Ibxaw4FimBI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<div="bagitem">
-	<h3>Click the item name for more information and details. As you add each item to your bag check the box and watch your readiness increase!</h3>
+	<button type="button" id="showModal">Finished Packing!</button>
+	
 	<ul>
 		<li><input type="checkbox">Food and Water</li>
 		<li><input type="checkbox">Flashlight/Headlamp</li>
@@ -42,21 +55,30 @@
 		<li><input type="checkbox">Space Blanket & Large Garbage Bags</li>
 	</ul>
 
-	<div id="progress"> 
-		<div class="progressBar"></div> 
-	</div> 
+	<div class="modal-background">
+		<div class="modal-content">
+		<h3>"Congratulations, you have built your Go Bag!</h3>
+			<p>What's next? How about a CPR/First Aid class? Why not take the 
+			Community Emergency Response Team (CERT) course? Talk with family, neighbors, 
+			and friends to make sure they are ready. American meteorologist Max Mayfield 
+			, "Preparation through education is less costly than learning through
+			tragedy."</p>
+			<button id="close">Close</button>
+		</div>
+	</div>
+
 </div>
 
 	<footer>
 
-		<i class="fab fa-facebook-square"></i>
-		<i class="fab fa-twitter-square"></i>
+		<i class="fab fa-twitter"></i>
 		<i class="fab fa-instagram"></i>
 
 	<hr>
 		<p>&copy;2019 Jennifer Youngblood</p>
 	
 	</footer>
+
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src ="js/main.js"></script>
